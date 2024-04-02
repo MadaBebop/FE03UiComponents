@@ -1,0 +1,143 @@
+body {
+  background-color: #dde0f3;
+  display: flex;
+  justify-content: center;
+}
+
+.invoiceapp {
+  display: flex;
+}
+
+.invoiceapp-main {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  border-style: solid;
+  border-color: #daddf1;
+  border-width: 3px;
+  padding: 30px;
+}
+
+.invoiceapp-chooser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.invoiceapp-chooser input[type="submit"] {
+  margin-top: 30px;
+}
+
+.invoiceapp-chooser__item {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.invoiceapp-chooser__item input[type="text"] {
+  margin-left: 5px;
+}
+
+.invoiceapp-main {
+  display: flex;
+  justify-content: center;
+}
+
+.invoiceapp-chooser__item select {
+  margin-left: 5px;
+}
+
+.invoiceapp-invoice {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 700px;
+  margin: 20px;
+}
+
+.invoiceapp-invoice__items {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.invoiceapp-invoice__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.invoiceapp-invoice__data {
+  display: flex;
+  flex-direction: column;
+}
+
+.invoiceapp-invoice__header__title {
+  display: flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  font-size: large;
+  font: 25px Arial, sans-serif;
+  color: #d2673c;
+}
+
+.invoiceapp-invoice__data__value {
+  display: flex;
+  justify-content: flex-end;
+  font-size: large;
+  font: 20px Arial, sans-serif;
+  color: #2e1004;
+  margin-top: 5px;
+}
+
+.invoiceapp-invoice__table {
+  background-color: #daddf1;
+}
+
+.invoiceapp-invoice__table-row th {
+  border-bottom-style: solid;
+  border-bottom-color: lightslategray;
+  border-bottom-width: 7px;
+  padding: 15px;
+}
+
+.invoiceapp-invoice__table-row td {
+  border-bottom-style: solid;
+  border-bottom-color: lightslategray;
+  border-bottom-width: 1px;
+  padding: 15px;
+  height: 30px;
+}
+
+.invoiceapp-invoice__paging {
+  background-color: #daddf1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.invoiceapp-invoice__paging * {
+  margin-left: 5px;
+}
+
+.invoiceapp-invoice__summary {
+  background-color: #daddf1;
+  display: flex;
+  justify-content: flex-end;
+  font-size: large;
+  font: 20px Arial, sans-serif;
+  color: #d2673c;
+  padding: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+#spinner{
+  margin-top: 300px;
+}
+
+#h4{
+  padding-right:  50px;
+}
